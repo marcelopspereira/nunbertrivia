@@ -8,9 +8,9 @@ namespace api.Dto
         public string Text { get; set; }
 
         [JsonProperty("number")]
-        public string Number { get; set; }
+        public int Number { get; set; }
         [JsonProperty("found")]
-        public string Found { get; set; }
+        public bool Found { get; set; }
         [JsonProperty("type")]
         public string Type { get; set; }
 
